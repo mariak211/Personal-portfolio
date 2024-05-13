@@ -1,8 +1,16 @@
 import React from 'react'
-
+import { About, Footer, Header, Projects, Work } from './Container';
+import { Navbar } from './Components';
 const App = () => {
   return (
-    <h1>App</h1>
+    <div className="app">
+    <Navbar />
+    <Header />
+    <About />
+    <Work />
+    <Projects/>
+    <Footer />
+  </div>
   )
 }
 
