@@ -40,6 +40,9 @@ import NameLogo from '../assets/NameLogo.png'
 
 import nileremitlogo from '../assets/nileremitlogo.png'
 import logo2 from '../assets/logo2.png'
+import profilePhoto from '../assets/profilePhoto.png'
+import profile2 from '../assets/profile2.png'
+
 export default {
   email,
   mobile,
@@ -78,4 +81,6 @@ export default {
   NameLogo,
   nileremitlogo,
   logo2,
+  profilePhoto,
+  profile2,
 };
