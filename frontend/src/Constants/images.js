@@ -42,6 +42,15 @@ import nileremitlogo from '../assets/nileremitlogo.png'
 import logo2 from '../assets/logo2.png'
 import profilePhoto from '../assets/profilePhoto.png'
 import profile2 from '../assets/profile2.png'
+import engineering1 from '../assets/engineering1.JPG'
+import engineering2 from '../assets/engineering2.JPG'
+import iOS from '../assets/iOS.png'
+import iOS2 from '../assets/appstore.png'
+import iOSLogo from '../assets/iOSLogo.png'
+import about_ios from '../assets/about_ios.png'
+import brain from '../assets/brain.png'
+import backend from '../assets/backend.png'
+import machinelearning from '../assets/machinelearning.png'
 
 export default {
   email,
@@ -83,4 +92,13 @@ export default {
   logo2,
   profilePhoto,
   profile2,
+  engineering1,
+  engineering2,
+  iOS,
+  iOS2,
+  iOSLogo,
+  about_ios,
+  brain,
+  backend,
+  machinelearning,
 };
