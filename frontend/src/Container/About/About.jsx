@@ -37,7 +37,7 @@ const About = () => {
 
       <h2 className='head-text'> Technical <span> Skills </span></h2>
       <div className="app__profiles">
-        {[images.cpp, images.python, images.git, images.api, images.react].map((icon, index) => (
+        {[images.about_ios, images.python, images.git, images.api, images.react].map((icon, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
