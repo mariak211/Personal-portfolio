@@ -18,8 +18,7 @@ const Testimonial = () => {
   };
 
   useEffect(() => {
-    // Dummy data for testimonials
-    const dummyTestimonials = [
+    const Testimonials = [
       {
         imgurl: images.mobileTeam,
         name: 'Innovapost Mobile team',
@@ -40,8 +39,8 @@ const Testimonial = () => {
       },
     ];
 
-    // Dummy data for brands
-    const dummyBrands = [
+
+    const Brands = [
       {
         _id: '1',
         imgUrl: images.carta,
@@ -69,8 +68,8 @@ const Testimonial = () => {
       },
     ];
 
-    setTestimonials(dummyTestimonials);
-    setBrands(dummyBrands);
+    setTestimonials(Testimonials);
+    setBrands(Brands);
   }, []);
 
   return (
