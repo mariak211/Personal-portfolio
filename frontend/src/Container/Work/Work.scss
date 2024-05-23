@@ -87,7 +87,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-  
+   
     @media screen and (max-width: 900px) {
       margin-top: 2rem;
     }
@@ -100,8 +100,54 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: 1rem 0;
+  
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px !important;
+      border: 2px sold blue($color: #000000);
+    }
+  }
+
+  .company-period {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
   }
   
+  .company-period h2 {
+    margin: 0;
+  }
+  
+  .company-period h4 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 768px) {
+    .company-period {
+      flex-direction: row;
+    }
+  }
+
+  .description-image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+  
+    .p-text {
+      flex: 1; 
+      margin: 0;
+    }
+  
+    img {
+      max-width: 100px; 
+      height: auto;
+    }
+  }
+
   .app__skills-exp-works {
     flex: 1;
   
@@ -111,7 +157,7 @@
       justify-content: flex-start;
       align-items: flex-start;
       margin-bottom: 1rem;
-      cursor: pointer;
+      // cursor: pointer;
   
       h4 {
         font-weight: 500;
