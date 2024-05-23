@@ -6,6 +6,7 @@
 #   pull_request:
 #     branches:
 #       - main
+
 # jobs:
 #   build:
 #     name: Build
@@ -13,17 +14,26 @@
 #     steps:
 #       - name: Checkout Repo
 #         uses: actions/checkout@v2.3.2
+
 #       - name: Install Dependencies
-#         run: npm install      
+#         working-directory: ./frontend
+#         run: |
+#           rm -rf node_modules
+#           rm -rf node_modules/.cache
+#           npm install
+
 #       - name: Build
+#         working-directory: ./frontend
 #         env:
-#           CI: false        
+#           CI: false
 #         run: npm run build
+
 #       - name: Archive Production Artifact
 #         uses: actions/upload-artifact@v2
 #         with:
 #           name: build
-#           path: build
+#           path: frontend/build
+
 #   deploy:
 #     name: Deploy
 #     needs: build
@@ -31,17 +41,20 @@
 #     steps:
 #       - name: Checkout Repo
 #         uses: actions/checkout@v2.3.2
+
 #       - name: Download Artifact
 #         uses: actions/download-artifact@v2
 #         with:
 #           name: build
 #           path: build
+
 #       - name: Deploy to Firebase
 #         uses: w9jds/firebase-action@master
 #         with:
 #           args: deploy --only hosting
 #         env:
 #           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
 name: Firebase Deployment
 
 on:
@@ -96,6 +109,6 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting
+          args: deploy --only hosting --project /Users/mariakachuoth/Academics/Developer/Dev/Personal-portfolio/frontend/firebase.json
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
