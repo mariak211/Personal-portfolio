@@ -51,6 +51,19 @@ import about_ios from '../assets/about_ios.png'
 import brain from '../assets/brain.png'
 import backend from '../assets/backend.png'
 import machinelearning from '../assets/machinelearning.png'
+import carta from '../assets/carta.png'
+import thescore from '../assets/thescore.svg'
+import wonolo from '../assets/Wonolo.png'
+import openlane from '../assets/openlane.png'
+import guestlogix from '../assets/guestlogix.png'
+import innovapost from '../assets/innovaPost.webp'
+import georgedunning from '../assets/georgedunning.jpeg'
+import mobileTeam from '../assets/innovapostSendoff.jpeg'
+import soulscribeAi from '../assets/mock.png'
+import journaldetail from '../assets/journaldetail.png'
+import nilemobile from '../assets/nilemobile.png'
+import nileconnect from '../assets/nileconnect.png'
+import agileTeam from '../assets/Dave.jpeg'
 
 export default {
   email,
@@ -101,4 +114,17 @@ export default {
   brain,
   backend,
   machinelearning,
+  carta,
+  thescore,
+  wonolo,
+  openlane,
+  guestlogix,
+  innovapost,
+  georgedunning,
+  mobileTeam,
+  soulscribeAi,
+  journaldetail,
+  nilemobile,
+  nileconnect,
+  agileTeam,
 };
