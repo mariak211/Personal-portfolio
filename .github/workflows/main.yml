@@ -14,11 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.2
 
       - name: Install Dependencies
         working-directory: ./frontend
         run: |
+          rm -rf node_modules
+          rm -rf node_modules/.cache
           npm install
 
       - name: Build
@@ -26,10 +28,6 @@ jobs:
         env:
           CI: false
         run: npm run build
-
-      - name: List build directory contents
-        working-directory: ./frontend
-        run: ls -al build
 
       - name: Archive Production Artifact
         uses: actions/upload-artifact@v2
@@ -43,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.2
 
       - name: Download Artifact
         uses: actions/download-artifact@v2
@@ -51,12 +49,10 @@ jobs:
           name: build
           path: frontend/build
 
-      - name: List downloaded build directory contents
-        run: ls -al frontend/build
-
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }} --config frontend/firebase.json
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+
