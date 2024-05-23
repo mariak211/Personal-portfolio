@@ -9,7 +9,7 @@ import { images } from '../../Constants';
 const dummyProjects = [
   {
     title: 'SoulScribe AI',
-    description: 'A machine learning project that classifies images using convolutional neural networks.',
+    description: 'An AI-powered iOS app that provides therapist-like support during the journaling process. Architected the design and implementation of the UI as well as integrating with backend service through Restful API. During the Winter 2024 symposium at the University of Waterloo, our project received 100% approval from our consultants for showcasing an exceptionally user-friendly and innovative user interface.',
     imgUrl: images.journaldetail,
     projectLink: '#',
     codeLink: 'https://github.com/SoulScribe-AI/mobile',
