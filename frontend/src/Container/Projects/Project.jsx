@@ -17,7 +17,7 @@ const dummyProjects = [
   },
   {
     title: 'NileRemit',
-    description: 'A mobile app that supports real-time messaging and voice calls.',
+    description: 'NileRemit is a beta version iOS application for remittance, designed to help the South Sudanese community in the diaspora by offering a secure and effective solution for sending financial support to their families back home. In this project, I gained valuable insights into the complete process of remittance fulfillment from the sender’s bank to the recipient account and all the intermediary payment processors involved.',
     imgUrl: images.nilemobile,
     projectLink: '#',
     codeLink: 'https://github.com/NileRemit/NileRemit-mobile-ios',
