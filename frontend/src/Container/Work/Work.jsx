@@ -31,8 +31,7 @@ const Work = () => {
         "Github"
       ],
     
-      "achievements": "Improved Docker container runtimes by 60% via VirtioFS"
-    
+      "achievements": "OPENLANE, Inc., a leading digital marketplace for wholesale used vehicles, offers exclusive off-lease inventory not found anywhere else. It brings together all sellers, buyers, and vehicles in one platform, providing a distinct selection of inventory. As an iOS engineering intern, I actively contributed to the modernization of their codebase. I developed a watchlist feature for the iOS app, which allows users to bid and monitor vehicles of interest. This enhancement improved the shopping experience for over 15,000 customers."
     },
     {
       "companyName": "Carta",
@@ -56,8 +55,7 @@ const Work = () => {
         "Git"
       ],
     
-      "achievements": "Carta is a Unicorn startup that has made a name for itself as the world's leading Cap Table management software. I have had the opportunity to spend 2 of my internships at this company as a Software Engineering Intern. Here I have been able to be part of 2 teams. First, I was on the Employee Platform team where I was able to overhaul the onboarding process for employees signing up for Carta to manage stocks issued to them from their companies. The second time, I worked on the Total Compensation team, where we used the equity and salary info provided by the 30,000+ corporations that are currently within the Carta ecosystem to develop data driven models that benchmark what compensation a new or existing hire should be receiving. Specifically during my time here, I played a large role in expanding their international outreach by providing an in-house currency conversion solution to convert any foreign currencies to USD."
-    
+      "achievements": "Carta is a renowned Unicorn startup known for its leading Cap Table management software. I had the privilege of interning at this company as a Software Engineering Intern for four months. During my tenure, I was part of the platform team, working as a mobile iOS engineer. My primary focus was to redefine the mobile UI testing workflow. My responsibilities ranged from creating the roadmap to implementing the UI testing automation pipeline. I pioneered and documented UI testing strategies which reduced manual testing efforts by 25%. Additionally, I created a nightly smoke tests pipeline that utilized idle continuous integration (CI) resources at night. This optimized the utilization of overstretched CI resources."
     },
     {
       "companyName": "Wonolo",
@@ -131,7 +129,7 @@ const Work = () => {
         "Github"
       ],
     
-      "achievements": "Improved Docker container runtimes by 60% via VirtioFS"
+      "achievements": "TheScore is an award-winning sportsbook app that provides real-time news, stats, and scores. It offers pregame and in-play markets, quick cashouts, secure transactions, and engaging promotions. During my 4-month internship as an iOS Engineer, I played a pivotal role in rewriting the betting features of theScore app and augmented the props and future feature implementation. This improved design provided millions of sports fans with enriched experiences as they effortlessly followed their favourite sports while betting on the same platform."
     
     },
     {
