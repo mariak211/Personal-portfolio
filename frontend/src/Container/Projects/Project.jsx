@@ -9,28 +9,20 @@ import { images } from '../../Constants';
 const dummyProjects = [
   {
     title: 'SoulScribe AI',
-    description: 'An AI-powered iOS app that provides therapist-like support during the journaling process. Architected the design and implementation of the UI as well as integrating with backend service through Restful API. During the Winter 2024 symposium at the University of Waterloo, our project received 100% approval from our consultants for showcasing an exceptionally user-friendly and innovative user interface.',
+    description: 'SoulScribeAi is an AI-powered app that offers therapist-like guidance during journaling. I led the design and UI implementation, integrating it seamlessly with backend services via Restful API. Our project received unanimous praise at the Winter 2024 University of Waterloo symposium for its user-friendly and innovative interface.',
     imgUrl: images.journaldetail,
     projectLink: '#',
     codeLink: 'https://github.com/SoulScribe-AI/mobile',
-    tags: ['Mobile app', 'ML', 'Backend'],
+    tags: ['Mobile App', 'ML', 'Backend'],
   },
   {
     title: 'NileRemit',
-    description: 'NileRemit is a beta version iOS application for remittance, designed to help the South Sudanese community in the diaspora by offering a secure and effective solution for sending financial support to their families back home. In this project, I gained valuable insights into the complete process of remittance fulfillment from the sender’s bank to the recipient account and all the intermediary payment processors involved.',
+    description: 'NileRemit is a platform that bridges the global remittance gap for South Sudanese in diaspora  through providing infrastructure for sending and receiving money to South Sudan.Being the founder of this simple but noble idea, my goal is  to give value to South Sudanese in diaspora and their relatives back home whose needs have often been ignored by major financial institutions.',
     imgUrl: images.nilemobile,
     projectLink: '#',
     codeLink: 'https://github.com/NileRemit/NileRemit-mobile-ios',
     tags: ['Mobile App', 'Backend'],
   },
-  {
-    title: 'NileConnect',
-    description: 'A robust backend for an e-commerce platform, providing secure and scalable APIs.',
-    imgUrl: images.nileconnect,
-    projectLink: '#',
-    codeLink: '#',
-    tags: ['Backend', 'Mobile App'],
-  }
 ];
 
 const Project = () => {
