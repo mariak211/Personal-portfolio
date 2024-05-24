@@ -79,8 +79,8 @@ const Work = () => {
         "Github"
       ],
     
-      "achievements": "Improved Docker container runtimes by 60% via VirtioFS"
-    
+      "achievements": " Wonolo connects you with immediate daily shifts and temp-to-perm opportunities around your area. Whether it's warehousing, food production, merchandising, or cleaning, Wonolo helps you start earning and discover your next opportunity. Work when you want, where you want, and get paid on your own schedule. \n As a Software Engineering intern at Wonolo, I significantly enhanced the iOS app's user experience by developing a Swift-based Toast View component. This innovation boosted user engagement and improved visual communication through dynamic pop-up banners. My ability to craft clean, sustainable code and effectively prioritize tasks ensured the timely delivery of high-quality software aligned with customer demands."
+  
     },
     {
       "companyName": "Innovapost",
@@ -104,8 +104,7 @@ const Work = () => {
         "Github"
       ],
     
-      "achievements": "Improved Docker container runtimes by 60% via VirtioFS"
-    
+      "achievements": "As a Software Engineering  intern at Innovapost, I contributed significantly to Canada Post's digital initiatives. I built a functional prototype in Swift for the digital coupon feature, earning recognition from development teams and stakeholders for its design excellence. Additionally, I researched, developed, and presented a successful plan to transition the Canada Post app to dark mode, which received unanimous approval. My contributions to Agile sprint planning and retrospectives further supported ongoing improvement initiatives, ensuring the creation of high-quality, scalable products."
     },
     {
       "companyName": "theScore",
@@ -154,7 +153,7 @@ const Work = () => {
         "Github"
       ],
     
-      "achievements": "Improved Docker container runtimes by 60% via VirtioFS"
+      "achievements": "As a Software Engineer at Guestlogix, I played a crucial role in this mission by designing a flawless UI using programmatic auto layout, ensuring precise control over complex UI elements and enhancing customer loyalty. My problem-solving and analytical skills were instrumental in identifying and resolving complex code issues, thereby improving development efficiency. Additionally, I gained valuable experience in the full software development lifecycle, from idea generation to deployment, contributing to the delivery of exceptional user experiences."
     
     }
 ];
