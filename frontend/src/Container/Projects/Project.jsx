@@ -19,7 +19,7 @@ const dummyProjects = [
     title: 'NileRemit',
     description: 'NileRemit is a platform that bridges the global remittance gap for South Sudanese in diaspora  through providing infrastructure for sending and receiving money to South Sudan.Being the founder of this simple but noble idea, my goal is  to give value to South Sudanese in diaspora and their relatives back home whose needs have often been ignored by major financial institutions.',
     imgUrl: images.nilemobile,
-    projectLink: '#',
+    projectLink: 'https://nileremit-web.vercel.app/',
     codeLink: 'https://github.com/NileRemit/NileRemit-mobile-ios',
     tags: ['Mobile App', 'Backend'],
   },
